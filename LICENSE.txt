@@ -1,0 +1,11 @@
+Licença Proprietária do Projeto Advocacia
+
+Copyright 2024 Thaissa Kailaine
+
+Todos os direitos reservados.
+É concedida permissão para o uso pessoal e não comercial deste software, exclusivamente pelo destinatário deste arquivo. 
+Este software e suas modificações não podem ser redistribuídos, compartilhados ou vendidos sem a permissão prévia por escrito do titular dos direitos autorais.
+
+ESTE SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIABILIDADE, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. 
+EM NENHUM CASO O TITULAR DOS DIREITOS AUTORAIS OU OS DETENTORES DE DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM AÇÃO DE CONTRATO,
+DELITO OU OUTRA FORMA, DECORRENTE DE, FORA OU RELACIONADA COM O SOFTWARE OU SEU USO, OU COM OUTROS ACORDOS NO SOFTWARE.
