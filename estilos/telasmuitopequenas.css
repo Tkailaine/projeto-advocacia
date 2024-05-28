@@ -3,13 +3,18 @@
 .bandeira{
     background-position: right;
 }
+
+.logo > a > img{
+    width: 180px;
+}
+
 .advogada{
     height: 250px;
     width: 100%;
 }
 
 .saudacoes> .txt> h1{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 
