@@ -5,15 +5,23 @@
 }
 .advogada{
     height: 250px;
-    width: 250px;
+    width: 100%;
 }
+
+.saudacoes> .txt> h1{
+    font-size: 1em;
+}
+
 
 .saudacoes> .txt> p{
 
     width: 250px;
     line-height: 1.6em;
+    font-size: 0.8em;
 
 }
+
+
 
 .bandeira2{   
     background-position:right;}

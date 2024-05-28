@@ -41,6 +41,9 @@ header > nav > ul> li:hover{
   border-radius: 10px;
 }
 
+.logo > a > img{
+  width: 200px;
+}
 
 .bandeira{
   height: 700px;
@@ -83,6 +86,10 @@ margin-right: 5%;
   margin-bottom: 100px;
   max-width: none; 
 
+}
+
+.sessao2{
+  height: 1000px;
 }
 
 .servico{

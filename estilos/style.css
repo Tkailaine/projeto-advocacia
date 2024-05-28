@@ -175,7 +175,7 @@ header> nav{
 
 
 .logo > a > img{
-    width: 250px;
+    width: 230px;
 }
 
 main{ 
@@ -340,7 +340,7 @@ main{
         background-size: cover;
         
         width: 100%;
-        height: 1000px;
+        height: 800px;
     }
 
     .slideshow-container {
