@@ -1,0 +1,181 @@
+@charset "UTF-8";
+.logo > a > img{
+  width: 300px;
+}
+.desktop{
+  display: flex;
+  list-style-type: none;
+}
+
+.imenu{
+  display: none;
+}
+.menu-lateral{
+  display:none;
+}
+
+header > nav > ul > li> a{
+  color: black;
+  text-decoration: none; 
+  margin: 20px;
+
+}
+
+header > nav > ul > li> a:hover{
+  color: var(--cor2);
+ 
+ 
+}
+
+header > nav > ul> li{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+
+header > nav > ul> li:hover{
+  background-color:var(--cor1); 
+  color: white;
+  transition-duration: 0.8s;
+  border-radius: 10px;
+}
+
+
+.bandeira{
+  height: 700px;
+}
+
+.saudacoes{
+  height: 80%;
+}
+
+.txt{
+width: 40%;
+margin-right: 5%;
+}
+
+.saudacoes> .txt> p{
+  width: 100%;
+
+
+}
+
+
+.advogada{
+
+  background-image: url(../imagens/advogada.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 560px;
+
+
+}
+
+.sessaoservicos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:1200px;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: none; 
+
+}
+
+.servico{
+  margin: 20px 5px 0px;
+  width: 250px;
+  height: 240px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--cor1);
+  
+}
+
+.servico > img{
+  border-radius: 10px ;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.slideshow-container {
+  display: none;}
+
+.dot{
+      display: none;
+  }
+
+  .txt-missao{
+    width: 95%;
+    text-align: center;
+}
+
+.valores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.container-slideshow{
+  display: none;
+}
+
+.item-slide{
+  display: none;
+}
+
+.galeria{
+  display: flex;
+  max-width: 1299px;
+ 
+}
+
+.relatos-container{
+  display: none;
+}
+
+.footer{
+  height: 300px;
+}
+.sessao-footer{
+
+  justify-content: start;
+  flex-direction: row;
+  
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
+@media (min-width: 1024px) and (max-width: 1172px) {
+  .ocultar{
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .ocultar2{
+    display: none;
+  }
+
+  .sessaoservicos{
+
+    width:900px;
+   
+  
+  }
+}
+ 
+  
+
+
+

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.bandeira{
+    background-position: right;
+}
+.advogada{
+    height: 250px;
+    width: 250px;
+}
+
+.saudacoes> .txt> p{
+
+    width: 250px;
+    line-height: 1.6em;
+
+}
+
+.bandeira2{   
+    background-position:right;}
+   
+
+.bandeira2 > p{
+    width: 95%;
+    top:53.2%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+
+.txt-missao{
+    margin-top: 10px;
+    width: 80%;
+    
+    margin: auto; 
+}

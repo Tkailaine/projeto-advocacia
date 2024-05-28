@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.logo > a > img{
+    width: 300px;
+}
+
+.bandeira{
+   
+}
+
+.saudacoes{
+
+}
+
+
+.saudacoes > p.slideInRight {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.advogada{
+
+    background-image: url(../imagens/advogada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+
+}
+.slideshow-container {
+    display: none;}
+
+.dot{
+        display: none;
+    }
+   
+    
+.sessaoservicos{
+    display: flex;
+}
+
+.txt-missao{
+    width: 95%;
+    text-align: center;
+}
+
+.galeria{
+    display: none;
+}
+
+.ocultar2{
+    display: none;
+}
+
+

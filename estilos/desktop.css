@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.logo > a > img{
+  width: 300px;
+}
+.desktop{
+  display: flex;
+  list-style-type: none;
+}
+
+.imenu{
+  display: none;
+}
+.menu-lateral{
+  display:none;
+}
+
+header > nav > ul > li> a{
+  color: black;
+  text-decoration: none; 
+  margin: 20px;
+
+}
+
+header > nav > ul > li> a:hover{
+  color: var(--cor2);
+ 
+ 
+}
+
+header > nav > ul> li{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+
+header > nav > ul> li:hover{
+  background-color:var(--cor1); 
+  color: white;
+  transition-duration: 0.8s;
+  border-radius: 10px;
+}
+
+.slideshow-container {
+  display: none;}
+
+.dot{
+      display: none;
+  }
+
+.bandeira{
+    height: 700px;
+}
+
+.saudacoes{
+  flex-wrap: nowrap;
+}
+
+
+.advogada{
+  background-image: url(../imagens/advogada.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 45%;
+  height: 500px;
+
+}
+.saudacoes> .txt{
+  width: 50%;
+
+  
+
+}
+ 
+  
+.sessaoservicos{
+  display: flex;
+}
+
+.txt-missao{
+  width: 95%;
+  text-align: center;
+}
+
+.valores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.container-slideshow{
+  display: none;
+}
+
+.item-slide{
+  display: none;
+}
+
+.galeria{
+  display: flex;
+}
+
+.ocultar{
+  display: none;
+}
+
+.relatos-container{
+  display: none;
+}
+
+.footer{
+  height: 300px;
+}
+.sessao-footer{
+
+  justify-content: start;
+  flex-direction: row;
+  
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
+.ocultar2{
+  display: none;
+}
+
+
