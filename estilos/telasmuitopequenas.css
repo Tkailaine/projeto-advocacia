@@ -14,15 +14,18 @@
 }
 
 .saudacoes> .txt> h1{
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }
 
 
 .saudacoes> .txt> p{
 
-    width: 250px;
+    width: 90%;
     line-height: 1.6em;
     font-size: 0.8em;
+    margin: auto;
+    margin-bottom: 20px;
 
 }
 

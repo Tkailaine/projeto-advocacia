@@ -15,14 +15,7 @@
     src: url('../fontes/idroid.otf') format(opentype);
 }
 
-/*
-CORES:
 
-#00E07B - VERDE PRINCIPAL
-#2E8B62 - VERDE ESCURO
-#1EB672 - VERDE MEIO TOM
-
-*/
 
 :root{
     --fonte-padrao: Roboto, Tahoma, Geneva, Verdana, sans-serif;
@@ -35,10 +28,18 @@ CORES:
     --cor4: #33322B;
     --cor5: #736B47;
 }
+
+
 *{
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1{
@@ -46,19 +47,18 @@ h1{
 }
 body{
     font-family: var(--fonte-padrao);
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     color: black;
     text-align: justify;  
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden ;
-  
     
 }
 
 header{
     background-image: linear-gradient(45deg,white 20%, rgb(221, 218, 218));
     font-family: var(--fonte-destaque);
-    position: relative;
-    z-index: 1000;
     width: 100vw;
 }
 
@@ -184,6 +184,7 @@ main{
     color: var(--cor1);
     font-family: var(--fonte-padrao);
     overflow-x: hidden;
+   
     
 }
 
