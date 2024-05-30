@@ -408,6 +408,20 @@ main{
     background-size: cover;
  }
 
+ .sessao2{
+    background-color: var(--cor4);    
+    width: 100%;
+    height: 700px;
+ }
+
+
+
+ 
+  
+.box h2 {
+    font-size: 45px;
+  }
+
 footer{
   
     background-color: rgb(246, 246, 247);
