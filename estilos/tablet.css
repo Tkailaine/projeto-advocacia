@@ -8,12 +8,12 @@
    
 }
 
-.saudacoes{
+.sobre{
 
 }
 
 
-.saudacoes > p.slideInRight {
+.sobre > p.slideInRight {
     opacity: 1;
     transform: translateX(0);
 }
@@ -29,30 +29,29 @@
 
 }
 
-
-.slideshow-container {
-    display: none;}
-
-.dot{
-        display: none;
-    }
-   
-    
-.sessaoservicos{
-    display: flex;
+#card1{
+    background-image: url(../imagens/atuacao1m.jpg);
 }
+
+#card2{
+    background-image: url(../imagens/atuacao2m.jpg);
+  
+ }
+
+ #card3{
+    background-image: url(../imagens/atuacao3m.jpg);
+ }
+
+ #card4{
+    background-image: url(../imagens/atuacao4m.jpg);
+ }
 
 .txt-missao{
     width: 95%;
     text-align: center;
 }
 
-.galeria{
-    display: none;
-}
 
-.ocultar2{
-    display: none;
-}
+
 
 

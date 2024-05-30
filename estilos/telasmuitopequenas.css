@@ -28,13 +28,13 @@
     width: 100%;
 }
 
-.saudacoes> .txt> h1{
+.sobre> .txt> h1{
     font-size: 1.4em;
     margin-bottom: 10px;
 }
 
 
-.saudacoes> .txt> p{
+.sobre> .txt> p{
 
     width: 90%;
     line-height: 1.6em;
@@ -44,18 +44,18 @@
 
 }
 
+.container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
 
 
-.bandeira2{   
-    background-position:right;}
-   
 
-.bandeira2 > p{
-    width: 95%;
-    top:53.2%;
-    transform: translate(-50%,0%);
-    text-align: center;
-}
+
 
 .txt-missao{
     margin-top: 10px;

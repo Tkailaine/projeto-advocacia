@@ -53,7 +53,7 @@ header > nav > ul> li:hover{
     height: 700px;
 }
 
-.saudacoes{
+.sobre{
   flex-wrap: nowrap;
 }
 
@@ -67,20 +67,32 @@ header > nav > ul> li:hover{
   height: 500px;
 
 }
-.saudacoes> .txt{
+.sobre> .txt{
   width: 50%;
 
   
 
 }
 
-.sessao2{
-  height: 1000px;
+#card1{
+  background-image: url(../imagens/atuacao1g.jpg);
+  background-position: left;
 }
- 
-  
-.sessaoservicos{
-  display: flex;
+
+#card2{
+  background-image: url(../imagens/atuacao2g.jpg);
+  background-position: left;
+
+}
+
+#card3{
+  background-image: url(../imagens/atuacao3g.jpg);
+  background-position: left;
+}
+
+#card4{
+  background-image: url(../imagens/atuacao4g.jpg);
+  background-position: left;
 }
 
 .txt-missao{
@@ -88,33 +100,9 @@ header > nav > ul> li:hover{
   text-align: center;
 }
 
-.valores {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: 100%;
-}
 
-.container-slideshow{
-  display: none;
-}
 
-.item-slide{
-  display: none;
-}
 
-.galeria{
-  display: flex;
-}
-
-.ocultar{
-  display: none;
-}
-
-.relatos-container{
-  display: none;
-}
 
 .footer{
   height: 300px;

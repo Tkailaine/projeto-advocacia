@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arielly Araujo Advocacia</title>
     <link rel="stylesheet" href="./estilos/style.css" media="all">
-    <link rel="stylesheet" href="./estilos/telasmuitopequenas.css" media="screen and (max-width:400px)">
-    <link rel="stylesheet" href="./estilos/tablet.css" media="screen and (min-width:600px) and (max-width:874px)">
-    <link rel="stylesheet" href="./estilos/desktop.css" media="screen and (min-width:874px) and (max-width:1024px)">
-    <link rel="stylesheet" href="./estilos/tv.css" media="screen and (min-width:1024px)">
+    <link rel="stylesheet" href="./estilos/telasmuitopequenas.css" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="./estilos/tablet.css" media="screen and (min-width:768px) and (max-width:991px)">
+    <link rel="stylesheet" href="./estilos/desktop.css" media="screen and (min-width:992px) and (max-width:1199px)">
+    <link rel="stylesheet" href="./estilos/tv.css" media="screen and (min-width:1200px)">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     
@@ -57,14 +57,12 @@
     
     <main>
         
-        <div class="sessao1">
+        <section class="sessao1">
             <div class="bandeira">
-            
                 <h1>Defendendo seus direitos com integridade e excelência.</h1>
-            
                 <a href="#sservicos" target=""><input class="btn-servicos" type="button" value="Áreas de atuação"></a>
                 <a href="#servicos" target=""><input class="btn-contato2" type="button" value="Entrar em contato" ></a>
-                <div class="saudacoes">
+                <div class="sobre">
                 <div class="advogada">
                 </div>
                 <div class="txt">
@@ -72,230 +70,41 @@
                     <p  class="texto-deslizante">Nosso compromisso é defender seus direitos com integridade e excelência. Com anos de experiência em cevil, empresarial, familiar, imobiliário, trabalhista e previdenciário, oferecemos soluções jurídicas personalizadas e eficazes. Nossa abordagem humana e dedicada garante que cada cliente receba a atenção e o apoio necessários para enfrentar seus desafios legais com confiança.</p>
                 </div>
             </div>
-            
-            </div>
-            
-        </div>
+        </section>
 
        
         <span id="sservicos" class="decoracao" ></span>
         <h1 class="tmissao" style="text-align: center; font-size: 1em; margin-top: 30px;">Serviços</h1>
-        <h1  style="text-align: center; margin-bottom: 15px; color: black; ">Área de atuação</h1>
+        <h1  style="text-align: center; margin-bottom: 15px; color: black; ">Áreas de atuação</h1>
 
-        <div class="sessao2">
-            <div class="slideshow-container" >
-                <div class="mySlides">
-                    <img src="imagens/cevil.png" alt="Instalação de disjuntor" style="width:100%; ">
-                </div>
-                <div class="mySlides">
-                    <img src="imagens/cevil.png" alt="Instalação de câmera" style="width:100%; border-radius: 20px;">
-                </div>
-                <div class="mySlides">
-                    <img src="imagens/qdc.jpg" alt="Instalação de quadro de distribuição" style="width:100%; border-radius: 20px;">
-                </div>
-                <div class="mySlides">
-                    <img src="imagens/tomada.jpg" alt="Instalação de tomada" style="width:100%; border-radius: 20px;">
-                </div>
-                <div class="mySlides">
-                    <img src="imagens/iluminacao.jpg" alt="Instalação de iluminação" style="width:100%; border-radius: 20px;">
-                </div>
-                <div class="mySlides">
-                    <img src="imagens/fiação.jpg" alt="Instalação de fiação" style="width:100%; border-radius: 20px;">
-                </div>
-            
-            
-                <a  style="display: none;" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" style="display: none;" onclick="plusSlides(1)">&#10095;</a>
+        <div class="container">
+            <div class="panel active" id="card1">
+              <h3>Direito Cevil</h3>
             </div>
-            <br>
-            <div style="text-align:center">
+            <div class="panel" id="card2">
+              <h3>Direito Familiar</h3>
             </div>
-            <div class="sessaoservicos"  >
-                <div class="servico">
-                    <img  src="imagens/cevil.png" alt="Instalação de Câmera">
-                </div>
-                <div class="servico">
-                    <img src="imagens/cevil.png" alt="Instalação de Quadro de distribuição">
-                </div>
-                <div class="servico">
-                    <img src="imagens/cevil.png" alt="Instalação de Disjuntor">
-                </div>
-                <div class="servico">
-                    <img src="imagens/cevil.png" alt="Instalação de Disjuntor">
-                </div>
-                
+            <div class="panel"  id="card3">
+              <h3>Direito Trabalhista</h3>
             </div>
-            <div class="navegacao"></div>
-        </div>
-
-        <div class="bandeira2">
-            <h1>QUEM SOMOS</h1>
-            <p>Profissionais qualificados em instalações elétricas</p>
-        </div>
-
-        <section class="quem-somos">
-            <span id="snossamissao" class="decoracao"></span>
-        <h1 class="tmissao" style="text-align: center; font-size: 1em; margin-top: 30px;">Nossa</h1>
-        <h1  style="text-align: center; margin-bottom: 15px; color: black; ">Missão</h1>
-        <p class="txt-missao">Garantir segurança e eficiência nas instalações elétricas, superando as expectativas dos nossos clientes.</p>
-            <div class="missao">
-                <h1></h1>
-                <p></p>
+            <div class="panel" id="card4">
+              <h3>Direito Imobiliário</h3>
             </div>
-            <div class="valores">
-
-                <div class="valor">
-                    <img src="imagens/icone1.png" alt="Ícone profissionalismo" class="valor-icone">
-                    <p class="valor-texto">Profissionalismo</p>
-                </div>
-                <div class="valor">
-                    <img src="imagens/icone2.png" alt="Ícone Certificações Profissionais" class="valor-icone">
-                    <p class="valor-texto">Certificações Profissionais</p>
-                </div>
-                <div class="valor">
-                    <img src="imagens/icone3.png" alt="Ícone segurança materias de qualidade" class="valor-icone">
-                    <p class="valor-texto">Materiais de Qualidade</p>
-                </div>
-            </div>
-        </section>
-
-        <div>
-           <h1  id="sgaleria" style="text-align: center; font-size: 1.5em; margin-top: 30px;">Galeria</h1>
-            <span id="snossamissao" class="decoracao" style="margin-top: 0px; width: 250px; height: 1px;"></span>
-
-            <div class="galeria">
-                
-                    <img class="fgaleria" src="imagens/1.jpg" alt="Instalação de luzes">
-               
-                
-                    <img class="fgaleria" src="imagens/2.jpg" alt="Instalação de tomadas">
-              
-               
-                    <img  class="fgaleria" src="imagens/3.jpg" alt="instalação de tomadas 110v">
-               
-
-            
-                    <img  class="fgaleria" src="imagens/4.jpg" alt="Instalação de fiações">
-                
-
-                
-                    <img  class="fgaleria" src="imagens/9.jpg" alt="instalação de luminária">
-                
-
-                
-                    <img  class="fgaleria" src="imagens/6.jpg" alt="Instalação de quadro de distribuição">
-               
-
-              
-                    <img  class="fgaleria ocultar" src="imagens/7.jpg" alt="manutenção de fiação">
-                
-
-               
-                    <img  class="fgaleria ocultar" src="imagens/8.jpg" alt="tomadas 220v">
-                
-                
-            </div>
-
-            <div class="container-slideshow">
-                <div class="item-slide">
-                    <img src="imagens/1.jpg" alt="Instalação de luzes">
-                </div>
-                <div class="item-slide">
-                    <img src="imagens/2.jpg" alt="Instalação de tomadas">
-                </div>
-                <div class="item-slide">
-                    <img src="imagens/3.jpg" alt="instalação de tomadas 110v">
-                </div>
-
-                <div class="item-slide">
-                    <img src="imagens/4.jpg"alt="Instalação de fiações">
-                </div>
-
-                <div class="item-slide">
-                    <img src="imagens/9.jpg"alt="instalação de luminária">
-                </div>
-
-                <div class="item-slide">
-                    <img src="imagens/6.jpg" alt="Instalação de quadro de distribuição">
-                </div>
-
-                <div class="item-slide">
-                    <img src="imagens/7.jpg"  alt="manutenção de fiação">
-                </div>
-
-                <div class="item-slide">
-                    <img src="imagens/8.jpg" alt="tomadas 220v">
-                </div>
-                
-            </div>   
-            
-        </div>
-
-        <span id="srelatos" class="decoracao"></span>
-        <h1 style="text-align: center; font-size: 1.2em; margin-top: 30px;">Relatos</h1>
-            <h1 style="text-align: center; margin-bottom: 55px; color: black; font-size: 1.5em;">Nossos clientes falam por nós</h1>
-
-            <div class="galeria">
-                
-                <img class="fgaleria" src="imagens/relato1.png" alt="relato 1">
-           
-            
-                <img class="fgaleria" src="imagens/relato2.png" alt="relato 2">
           
-           
-                <img  class="fgaleria" src="imagens/relato3.png" alt="relato 3">
-           
+      
+          </div>
 
         
-                <img  class="fgaleria" src="imagens/relato4.png" alt="relato 4">
-            
-
-            
-                <img  class="fgaleria" src="imagens/relato5.png" alt="relato 5">
-            
-
-            
-                <img  class="fgaleria" src="imagens/relato6.png" alt="relato 6">
-           
-
-          
-                <img  class="fgaleria ocultar" src="imagens/relato7.png" alt="relato 7">
-            
-
-           
-                <img  class="fgaleria ocultar" src="imagens/relato8.png" alt="relato 8">
-            
-            
+        <div class="valores">
+            <div class="valor" data-valor="Valor 1">Valor 1</div>
+            <div class="valor" data-valor="Valor 2">Valor 2</div>
+            <div class="valor" data-valor="Valor 3">Valor 3</div>
         </div>
+    
+    
+       
 
-        
-        <div class="relatos-container">
-            <div class="relato">
-                <img src="imagens/relato1.png" alt="Instalação de luzes">
-            </div>
-            <div class="relato">
-                <img src="imagens/relato2.png" alt="Instalação de tomadas">
-            </div>
-            <div class="relato">
-                <img src="imagens/relato3.png" alt="Instalação de tomadas 110v">
-            </div>
-            <div class="relato">
-                <img src="imagens/relato4.png" alt="Instalação de fiações">
-            </div>
-            <div class="relato">
-                <img src="imagens/relato5.png" alt="Instalação de luminária">
-            </div>
-            <div class="relato">
-                <img src="imagens/relato6.png" alt="Instalação de quadro de distribuição">
-            </div>
-            <div class="relato">
-                <img src="imagens/relato7.png" alt="Manutenção de fiação">
-            </div>
-            <div class="relato">
-                <img src="imagens/relato8.png" alt="Tomadas 220v">
-            </div>
-        </div>
-           
+
 
      <script src="script.js"></script>
         
