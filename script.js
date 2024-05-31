@@ -1,5 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Menu Lateral Links
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Menu lateral
     document.querySelectorAll('.menu-lateral a').forEach(link => {
       link.addEventListener('click', function() {
         document.querySelector('.menu-lateral').classList.remove('open');
@@ -7,19 +8,17 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   
-    // Menu Icon
     document.querySelector('.imenu').addEventListener('click', function() {
       document.querySelector('.menu-lateral').classList.add('open');
       document.querySelector('.imenu').style.opacity = '1';
     });
   
-    // Close Button
     document.querySelector('.close-btn').addEventListener('click', function() {
       document.querySelector('.menu-lateral').classList.remove('open');
       document.querySelector('.imenu').style.opacity = '1';
     });
   
-    // Function to check if element is in viewport
+    // Função para verificar se um elemento está visível na tela
     function isElementInViewport(el) {
       var rect = el.getBoundingClientRect();
       return (
@@ -30,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
       );
     }
   
-    // Toggle Animation for sliding text
+    // Função para adicionar a classe de animação quando o elemento está visível na tela
     function toggleAnimation() {
       var textoDeslizante = document.querySelector('.texto-deslizante');
       if (isElementInViewport(textoDeslizante)) {
@@ -39,12 +38,15 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
   
-    // Scroll event for animation
+    // Adicionar evento de rolagem para ativar a função de alternância de animação
     window.addEventListener('scroll', toggleAnimation);
+  
+    // Chame a função para verificar se o elemento está visível quando a página for carregada
     toggleAnimation();
   
-    // Panels script
+    // Script dos cards
     const panels = document.querySelectorAll('.panel');
+    
     panels.forEach(panel => {
       panel.addEventListener('click', () => {
         removeActiveClasses();
@@ -58,21 +60,24 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
   
-    // Intersection Observer for "valores"
+    // Valores
     const valores = document.querySelectorAll('.valor');
-    const observer = new IntersectionObserver(entries => {
+  
+    const observerValores = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('show');
         }
       });
-    }, { threshold: 0.1 });
-  
-    valores.forEach(valor => {
-      observer.observe(valor);
+    }, {
+      threshold: 0.1
     });
   
-    // Counters
+    valores.forEach(valor => {
+      observerValores.observe(valor);
+    });
+  
+    // Contagem
     const counters = document.querySelectorAll('.counter');
   
     const updateCounter = (counter) => {
@@ -93,18 +98,19 @@ document.addEventListener('DOMContentLoaded', function () {
       incrementCounter();
     };
   
-    const counterObserver = new IntersectionObserver((entries, observer) => {
+    const observerCounters = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const counter = entry.target;
           updateCounter(counter);
-          observer.unobserve(counter); // Unobserve after counting is done
+          observer.unobserve(counter); // Desativar o observador após a atualização do contador
         }
       });
     }, { threshold: 0.1 });
   
     counters.forEach(counter => {
-      counterObserver.observe(counter);
+      observerCounters.observe(counter);
     });
+  
   });
   
