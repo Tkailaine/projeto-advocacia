@@ -190,8 +190,7 @@ main{
 }
 
 .sessao1{
-
-    height: 125vh;
+    height: 1170px;
     width: 100%;
 }
 
@@ -466,7 +465,24 @@ color: var(--cor4);
     transform: translateY(0);
 }
 
-
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+  }
+  
+  .counter {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 580px) {
+    body {
+      flex-direction: column;
+    }
+  }
 
 
 footer{
