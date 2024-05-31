@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
       var textoDeslizante = document.querySelector('.texto-deslizante');
       if (isElementInViewport(textoDeslizante)) {
         textoDeslizante.classList.add('aparecer');
-        window.removeEventListener('scroll', toggleAnimation);
       }
     }
   
@@ -66,6 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show'); // Remover a classe quando não estiver visível
         }
       });
     }, {
@@ -118,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const parallaxEffect = () => {
       parallaxElements.forEach(el => {
         const offset = window.pageYOffset;
-        el.style.backgroundPositionY = `${offset * speed}px`;
+        el.style.transform = `translateY(${offset * speed}px)`;
       });
     };
   
