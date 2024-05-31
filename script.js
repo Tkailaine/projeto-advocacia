@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+  
     // Menu lateral
     document.querySelectorAll('.menu-lateral a').forEach(link => {
       link.addEventListener('click', function() {
@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Adicionar evento de rolagem para ativar a função de alternância de animação
     window.addEventListener('scroll', toggleAnimation);
-  
     // Chame a função para verificar se o elemento está visível quando a página for carregada
     toggleAnimation();
   
@@ -89,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const c = +counter.innerText;
         if (c < target) {
           counter.innerText = `${Math.ceil(c + increment)}`;
-          setTimeout(incrementCounter, 1);
+          requestAnimationFrame(incrementCounter);
         } else {
           counter.innerText = target;
         }
@@ -110,6 +109,21 @@ document.addEventListener('DOMContentLoaded', () => {
   
     counters.forEach(counter => {
       observerCounters.observe(counter);
+    });
+  
+    // Parallax Effect
+    const parallaxElements = document.querySelectorAll('.parallax');
+    const speed = 0.5; // Velocidade do efeito parallax
+  
+    const parallaxEffect = () => {
+      parallaxElements.forEach(el => {
+        const offset = window.pageYOffset;
+        el.style.backgroundPositionY = `${offset * speed}px`;
+      });
+    };
+  
+    window.addEventListener('scroll', () => {
+      requestAnimationFrame(parallaxEffect);
     });
   
   });
