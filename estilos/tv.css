@@ -104,6 +104,27 @@ margin-right: 5%;
 
  }
   
+ #valores{
+  background-image: url(../imagens/texturag.jpg);
+  font-size: 20px;
+  height: 700px;
+
+ }
+
+
+ .itens-valores{
+  display: flex;
+  justify-content: center;
+  margin-top:25px ;
+  gap: 100px;
+ 
+  
+ }
+ .itens-valores p{
+  display: none;
+ }
+
+
 
 .footer{
   height: 300px;
