@@ -112,20 +112,5 @@ document.addEventListener('DOMContentLoaded', () => {
       observerCounters.observe(counter);
     });
   
-    // Parallax Effect
-    const parallaxElements = document.querySelectorAll('.parallax');
-    const speed = 0.5; // Velocidade do efeito parallax
-  
-    const parallaxEffect = () => {
-      parallaxElements.forEach(el => {
-        const offset = window.pageYOffset;
-        el.style.transform = `translateY(${offset * speed}px)`;
-      });
-    };
-  
-    window.addEventListener('scroll', () => {
-      requestAnimationFrame(parallaxEffect);
-    });
-  
   });
   

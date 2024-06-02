@@ -423,7 +423,6 @@ main{
 #valores {
     margin-bottom: 10em;
     background-image: url(../imagens/textura.jpg);
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
