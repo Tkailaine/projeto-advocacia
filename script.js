@@ -112,3 +112,63 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+//relatos
+const testimonialsContainer = document.querySelector('.testimonials-container')
+const testimonial = document.querySelector('.testimonial')
+const userImage = document.querySelector('.user-image')
+const username = document.querySelector('.username')
+const role = document.querySelector('.role')
+
+const testimonials = [
+  {
+    name: 'Rafael Souza',
+    position: 'Fotógrafo',
+    photo:
+      '../imagens/homem4.jpg',
+    text:
+    "Arielly Araújo me ajudou a resolver uma disputa trabalhista complicada. Sua competência e dedicação foram excepcionais. Altamente recomendada!",
+  },
+ 
+  {
+    name: 'Gabriel Oliveira',
+    position: 'Empreendedor',
+    photo: '../imagens/homem2.jpg',
+    text:
+    "Precisei de assistência jurídica em uma questão de direito imobiliário e a Dra. Arielly foi brilhante. Sua atenção aos detalhes e conhecimento profundo fizeram toda a diferença.",
+  },
+  {
+    name: 'Larissa Almeida',
+    position: 'Enfermeira',
+    photo: '../imagens/mulher2.jpg',
+    text:
+    "Arielly Araújo me orientou em um processo de herança. Sua paciência e clareza na explicação dos passos legais me deram muita confiança. Recomendo seus serviços!",
+  },
+  {
+    name: 'Leonardo Garcia',
+    position: 'Empresário',
+    photo: '../imagens/homem3.jpg',
+    text:
+    "Contratei a Dra. Arielly para um caso empresarial complexo. Ela demonstrou grande expertise e eficiência, alcançando um resultado positivo para minha empresa. Excelente profissional!",
+  }
+]
+
+let idx = 1
+
+function updateTestimonial() {
+  const { name, position, photo, text } = testimonials[idx]
+
+  testimonial.innerHTML = text
+  userImage.src = photo
+  username.innerHTML = name
+  role.innerHTML = position
+
+  idx++
+
+  if (idx > testimonials.length - 1) {
+    idx = 0
+  }
+}
+
+setInterval(updateTestimonial, 10000)
+
