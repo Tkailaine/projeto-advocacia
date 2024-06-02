@@ -23,7 +23,7 @@
   }
 
   .sessao1{
-    height: 1070px;
+    height: 980px;
     width: 100%;
 }
 
@@ -41,11 +41,16 @@
 .sobre> .txt> p{
 
     width: 90%;
-    line-height: 1.6em;
-    font-size: 0.8em;
+    line-height: 1.5em;
+    font-size: 0.7em;
     margin: auto;
     margin-bottom: 20px;
+    
 
+}
+
+h1{
+  font-size: 1.5em;
 }
 
 .container {

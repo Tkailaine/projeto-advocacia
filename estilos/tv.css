@@ -14,33 +14,30 @@
   display:none;
 }
 
-header > nav > ul > li> a{
-  color: black;
+header > nav > .itens  a{
+  font-size: 1.2em;
+  font-weight: 600;
+  display: block;
+  color: #B3A042;
   text-decoration: none; 
-  margin: 20px;
 
 }
 
-header > nav > ul > li> a:hover{
-  color: var(--cor2);
- 
- 
+header > nav > .itens a:hover{
+  background-color:var(--cor1); 
+  color: white;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  padding: 3px 5px;
 }
 
-header > nav > ul> li{
+header > nav > .itens{
   display: flex;
   align-items: center;
   height: 30px;
+  gap: 35px;
+
 }
-
-
-header > nav > ul> li:hover{
-  background-color:var(--cor1); 
-  color: white;
-  transition-duration: 0.8s;
-  border-radius: 10px;
-}
-
 .logo > a > img{
   width: 200px;
 }
