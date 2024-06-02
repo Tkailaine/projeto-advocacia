@@ -125,7 +125,7 @@ const testimonials = [
     name: 'Rafael Souza',
     position: 'Fotógrafo',
     photo:
-      '../imagens/homem4.jpg',
+      'imagens/homem4.jpg',
     text:
     "Arielly Araújo me ajudou a resolver uma disputa trabalhista complicada. Sua competência e dedicação foram excepcionais. Altamente recomendada!",
   },
@@ -133,21 +133,21 @@ const testimonials = [
   {
     name: 'Gabriel Oliveira',
     position: 'Empreendedor',
-    photo: '../imagens/homem2.jpg',
+    photo: 'imagens/homem2.jpg',
     text:
     "Precisei de assistência jurídica em uma questão de direito imobiliário e a Dra. Arielly foi brilhante. Sua atenção aos detalhes e conhecimento profundo fizeram toda a diferença.",
   },
   {
     name: 'Larissa Almeida',
     position: 'Enfermeira',
-    photo: '../imagens/mulher2.jpg',
+    photo: 'imagens/mulher2.jpg',
     text:
     "Arielly Araújo me orientou em um processo de herança. Sua paciência e clareza na explicação dos passos legais me deram muita confiança. Recomendo seus serviços!",
   },
   {
     name: 'Leonardo Garcia',
     position: 'Empresário',
-    photo: '../imagens/homem3.jpg',
+    photo: 'imagens/homem3.jpg',
     text:
     "Contratei a Dra. Arielly para um caso empresarial complexo. Ela demonstrou grande expertise e eficiência, alcançando um resultado positivo para minha empresa. Excelente profissional!",
   }
