@@ -50,6 +50,15 @@
     width: 95%;
     text-align: center;
 }
+.sessao4{
+    height: 200px;
+}
+
+.countainer-principal-counter{
+    display: flex;
+    justify-content: center;
+}
+  
 
 
 

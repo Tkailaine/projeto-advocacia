@@ -141,6 +141,16 @@ margin-top: 25px;
 margin-right: 60px;
 }
 
+.sessao4{
+  height: 200px;
+}
+
+.countainer-principal-counter{
+  display: flex;
+  justify-content: center;
+}
+
+
 @media (min-width: 1024px) and (max-width: 1172px) {
   .ocultar{
     display: none;

@@ -100,6 +100,14 @@ header > nav > .itens{
   text-align: center;
 }
 
+.sessao4{
+  height: 200px;
+}
+
+.countainer-principal-counter{
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -122,5 +130,6 @@ margin-right: 60px;
 .ocultar2{
   display: none;
 }
+
 
 

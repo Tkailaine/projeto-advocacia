@@ -44,6 +44,7 @@ html, body{
 }
 
 h1{
+    text-align: center;
     font-family: var(--fonte-destaque);
 }
 body{
@@ -418,14 +419,8 @@ main{
    
  }
 
- .sessao3{
-    background-color: var(--cor5);
-    width: 100%;
-    height: 700px
- }
 
 #valores {
-    margin-bottom: 10em;
     background-image: url(../imagens/textura.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -468,12 +463,17 @@ color: var(--cor4);
     transform: translateY(0);
 }
 
+.sessao4{
+    background-color: var(--cor4);
+    height: 400px;
+}
+
 .counter-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 30px 50px;
+    margin: 0px 50px;
   }
   
   .counter {
