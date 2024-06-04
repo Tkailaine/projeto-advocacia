@@ -58,6 +58,17 @@
     display: flex;
     justify-content: center;
 }
+
+.form {
+  
+    width: 300px;
+    font-size: 1.125rem;
+  }
+
+  .links-uteis > li{
+    font-size: 1.2em;
+    margin: 20px 0px;
+  }
   
 
 

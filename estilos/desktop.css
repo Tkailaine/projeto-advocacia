@@ -122,6 +122,17 @@ header > nav > .itens{
   
 }
 
+.form {
+  
+  width: 300px;
+  font-size: 1.125rem;
+}
+
+.links-uteis > li{
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
 .sessao-footer > div{
 margin-top: 25px;
 margin-right: 60px;

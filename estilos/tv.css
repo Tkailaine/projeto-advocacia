@@ -127,10 +127,11 @@ margin-right: 5%;
 
 
 .footer{
-  height: 300px;
+
+
 }
 .sessao-footer{
-
+  gap: 40px;
   justify-content: start;
   flex-direction: row;
   
@@ -148,6 +149,17 @@ margin-right: 60px;
 .countainer-principal-counter{
   display: flex;
   justify-content: center;
+}
+
+.form {
+  
+  width: 300px;
+  font-size: 1.125rem;
+}
+
+.links-uteis > li{
+  font-size: 1.4em;
+  margin: 20px 0px;
 }
 
   
